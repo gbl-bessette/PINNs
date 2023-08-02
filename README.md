@@ -7,7 +7,7 @@ Application to a simple 2D problem Sin((x-2)^2+y^2) + Sin(x^2+(y-3)^2).
 
 Code can be found under Freq_PINN.py. Results for both supervized and unsupervized learning have been saved in respective folders. 
 - Supervized learning: basic configuration where values at every point (BC & collocation) are provided to the PINN as target values.
-- Unsupervized learning: target values are only provided on the boundaries of the domain, PINN finds solution inside of the domain on the collocation points, provided only some second order derivatives of the solution.
+- Unsupervized learning: target values are only provided on the boundaries of the domain, PINN finds solution inside of the domain on the collocation points, provided only some first and second order derivatives of the solution.
 
 Each folder contains information on the model, the loss behaviour, as well as some visualization of the results.
 
